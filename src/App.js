@@ -7,11 +7,11 @@ import './App.css';
 function App() {
   return (
     <Provider store={store}>
-    <Router>
-      <Greetings />
-    </Router>
-  </Provider>
-);
+      <Router>
+        <Greetings />
+      </Router>
+    </Provider>
+  );
 }
 
 export default App;
